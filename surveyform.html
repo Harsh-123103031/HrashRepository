@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">How can students manage their time better?</h1>
+<hr>
+<p id="description">Thank you for lending us your time</p>
+
+<form id= "survey-form">
+ <div class="input-element" >
+  <label id="name-label"> 
+   Name
+  <input placeholder="name"  id="name" type="text" required/></label>
+ </div> 
+ <div class= "input-element">
+  <label id="email-label"> 
+    Email
+  <input placeholder="email" id="email" type="email" required/></label>
+ </div> 
+ <div class="input-element" >
+  <label id="number-label"> 
+    Age
+  <input placeholder="age" id="number" min="10"
+  max="100" type="number" required/></label>
+ </div>
+ <div class= "input-element">
+  <label id="select-label"> 
+    How often do you prepeare a day schedule
+  <select id="dropdown" class="dropdown" >
+    <option>Daily</option>
+    <option>On Mondays</option>
+    <option>On heavy work days</option>
+    <option>Never</option>
+  </select></label>
+ </div>
+ <div class='input-element' >
+   <label>Have you tried making a time table before but failed to follow it?
+   <label> <input value="failed1" type= "radio" name="name"/>Yes always</label>
+  
+<label><input type= "radio" value="failed2" name="name"/>Quite a few times</label>
+   <label> <input type= "radio" name="name" value="failed3"/>Never actually</label>
+   </div>
+ </div>
+ <div>
+   <div class="input-element" >
+   <label>Which are your most productive days of the week?</label>
+   </div>
+   <div class="input-checkbox">
+     <label><input type="checkbox" 
+     name= "monday" value="monday">Monday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input type="checkbox" name= "tuesday" value="tuesday">Tuesday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input value="wednesday" type="checkbox" name= "wednsday">Wednsday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input type="checkbox" name= "thursday" value="thursday">Thursday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input type="checkbox" name= "friday" value="friday">Friday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input value=" saturday" type="checkbox" name= "saturday">Saturday </label>
+   </div>
+   <div class="input-checkbox">
+     <label><input type="checkbox" name= "sunday" value="sunday">Sunday </label>
+   </div>
+ </div>
+ <div class="input-element" >  
+   <label>Any personal tips or tricks on time management and for a productive day
+   <textarea class=".input-textarea" type= "text" cols="30" rows="4" placeholder="Write here........"></textarea></label> 
+ </div> 
+ <hr>
+ <button class="submit-button"  type="submit" id= "submit" >Submit
+   </buttton>           
+</form>
+ 
